@@ -1,1 +1,104 @@
 /* Other rules */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    /* width: 1440px; */
+    max-width: 1440px;
+    ;
+    margin: auto;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+
+    display: flex;
+    height: 50px;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+
+}
+
+.job-list {
+    /* width: 100%; */
+    /* margin: auto; */
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.job-card {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 15px;
+    /* box-sizing: border-box; */
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background-color: rgb(236, 236, 236);
+
+    /* padding: 10px; */
+    color: black;
+    font-size: 12px;
+
+}
+
+.border {
+    border: 10px solid;
+}
+
+.border-red {
+    border-color: red;
+}
+
+.border-green {
+    border-color: green;
+}
+
+.border-yellow {
+    border-color: yellow
+}
+
+.border-pink {
+    border-color: pink;
+}
+
+.border-blue {
+    border-color: blue;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.small-footer {
+    display: flex;
+    font-size: 12px;
+    align-items: flex-end;
+    justify-items: flex-start;
+    gap: 5px;
+
+
+}
